@@ -1,0 +1,708 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-22T06:43:46.223Z",
+  "title": "Design System: Anthalis",
+  "extensions": {
+    "colorMeta": {
+      "night": {
+        "role": "neutral",
+        "displayName": "Noche",
+        "canonical": "#0c0b0a",
+        "oklch": "oklch(15% 0.003 67.5)",
+        "tonalRamp": [
+          "oklch(15% 0.001 67.5)",
+          "oklch(26.4% 0.002 67.5)",
+          "oklch(37.9% 0.002 67.5)",
+          "oklch(49.3% 0.003 67.5)",
+          "oklch(60.7% 0.003 67.5)",
+          "oklch(72.1% 0.002 67.5)",
+          "oklch(83.6% 0.002 67.5)",
+          "oklch(95% 0.001 67.5)"
+        ]
+      },
+      "night-2": {
+        "role": "neutral",
+        "displayName": "Noche segunda",
+        "canonical": "#16130f",
+        "oklch": "oklch(18.9% 0.009 75.1)",
+        "tonalRamp": [
+          "oklch(15% 0.004 75.1)",
+          "oklch(26.4% 0.007 75.1)",
+          "oklch(37.9% 0.008 75.1)",
+          "oklch(49.3% 0.009 75.1)",
+          "oklch(60.7% 0.009 75.1)",
+          "oklch(72.1% 0.008 75.1)",
+          "oklch(83.6% 0.007 75.1)",
+          "oklch(95% 0.004 75.1)"
+        ]
+      },
+      "night-line": {
+        "role": "neutral",
+        "displayName": "Junta de noche",
+        "canonical": "#2c271f",
+        "oklch": "oklch(27.6% 0.016 79.5)",
+        "tonalRamp": [
+          "oklch(15% 0.007 79.5)",
+          "oklch(26.4% 0.011 79.5)",
+          "oklch(37.9% 0.014 79.5)",
+          "oklch(49.3% 0.016 79.5)",
+          "oklch(60.7% 0.016 79.5)",
+          "oklch(72.1% 0.014 79.5)",
+          "oklch(83.6% 0.011 79.5)",
+          "oklch(95% 0.007 79.5)"
+        ]
+      },
+      "on-night": {
+        "role": "neutral",
+        "displayName": "Marfil de noche",
+        "canonical": "#efe7d6",
+        "oklch": "oklch(93% 0.024 85.8)",
+        "tonalRamp": [
+          "oklch(15% 0.011 85.8)",
+          "oklch(26.4% 0.017 85.8)",
+          "oklch(37.9% 0.022 85.8)",
+          "oklch(49.3% 0.024 85.8)",
+          "oklch(60.7% 0.024 85.8)",
+          "oklch(72.1% 0.022 85.8)",
+          "oklch(83.6% 0.017 85.8)",
+          "oklch(95% 0.011 85.8)"
+        ]
+      },
+      "on-night-soft": {
+        "role": "neutral",
+        "displayName": "Marfil apagado",
+        "canonical": "#b8ad98",
+        "oklch": "oklch(75.1% 0.032 83.6)",
+        "tonalRamp": [
+          "oklch(15% 0.014 83.6)",
+          "oklch(26.4% 0.023 83.6)",
+          "oklch(37.9% 0.029 83.6)",
+          "oklch(49.3% 0.031 83.6)",
+          "oklch(60.7% 0.031 83.6)",
+          "oklch(72.1% 0.029 83.6)",
+          "oklch(83.6% 0.023 83.6)",
+          "oklch(95% 0.014 83.6)"
+        ]
+      },
+      "gold": {
+        "role": "primary",
+        "displayName": "Oro de tulipán",
+        "canonical": "#c8a45c",
+        "oklch": "oklch(73.6% 0.1 83.4)",
+        "tonalRamp": [
+          "oklch(15% 0.045 83.4)",
+          "oklch(26.4% 0.072 83.4)",
+          "oklch(37.9% 0.09 83.4)",
+          "oklch(49.3% 0.099 83.4)",
+          "oklch(60.7% 0.099 83.4)",
+          "oklch(72.1% 0.09 83.4)",
+          "oklch(83.6% 0.072 83.4)",
+          "oklch(95% 0.045 83.4)"
+        ]
+      },
+      "gold-hi": {
+        "role": "primary",
+        "displayName": "Oro encendido",
+        "canonical": "#e2c585",
+        "oklch": "oklch(83.4% 0.088 86.2)",
+        "tonalRamp": [
+          "oklch(15% 0.039 86.2)",
+          "oklch(26.4% 0.063 86.2)",
+          "oklch(37.9% 0.079 86.2)",
+          "oklch(49.3% 0.087 86.2)",
+          "oklch(60.7% 0.087 86.2)",
+          "oklch(72.1% 0.079 86.2)",
+          "oklch(83.6% 0.063 86.2)",
+          "oklch(95% 0.039 86.2)"
+        ]
+      },
+      "gold-deep": {
+        "role": "primary",
+        "displayName": "Oro bruñido",
+        "canonical": "#7a5f2c",
+        "oklch": "oklch(50.2% 0.077 81.3)",
+        "tonalRamp": [
+          "oklch(15% 0.034 81.3)",
+          "oklch(26.4% 0.055 81.3)",
+          "oklch(37.9% 0.069 81.3)",
+          "oklch(49.3% 0.076 81.3)",
+          "oklch(60.7% 0.076 81.3)",
+          "oklch(72.1% 0.069 81.3)",
+          "oklch(83.6% 0.055 81.3)",
+          "oklch(95% 0.034 81.3)"
+        ]
+      },
+      "sillar": {
+        "role": "secondary",
+        "displayName": "Sillar",
+        "canonical": "#d8d2c7",
+        "oklch": "oklch(86.6% 0.016 82.8)",
+        "tonalRamp": [
+          "oklch(15% 0.007 82.8)",
+          "oklch(26.4% 0.012 82.8)",
+          "oklch(37.9% 0.015 82.8)",
+          "oklch(49.3% 0.016 82.8)",
+          "oklch(60.7% 0.016 82.8)",
+          "oklch(72.1% 0.015 82.8)",
+          "oklch(83.6% 0.012 82.8)",
+          "oklch(95% 0.007 82.8)"
+        ]
+      },
+      "sillar-hi": {
+        "role": "secondary",
+        "displayName": "Sillar alto",
+        "canonical": "#ece7df",
+        "oklch": "oklch(93% 0.012 79.8)",
+        "tonalRamp": [
+          "oklch(15% 0.005 79.8)",
+          "oklch(26.4% 0.009 79.8)",
+          "oklch(37.9% 0.011 79.8)",
+          "oklch(49.3% 0.012 79.8)",
+          "oklch(60.7% 0.012 79.8)",
+          "oklch(72.1% 0.011 79.8)",
+          "oklch(83.6% 0.009 79.8)",
+          "oklch(95% 0.005 79.8)"
+        ]
+      },
+      "sillar-lo": {
+        "role": "secondary",
+        "displayName": "Sillar bajo",
+        "canonical": "#b2a998",
+        "oklch": "oklch(73.8% 0.026 83.4)",
+        "tonalRamp": [
+          "oklch(15% 0.012 83.4)",
+          "oklch(26.4% 0.019 83.4)",
+          "oklch(37.9% 0.023 83.4)",
+          "oklch(49.3% 0.026 83.4)",
+          "oklch(60.7% 0.026 83.4)",
+          "oklch(72.1% 0.023 83.4)",
+          "oklch(83.6% 0.019 83.4)",
+          "oklch(95% 0.012 83.4)"
+        ]
+      },
+      "on-stone": {
+        "role": "neutral",
+        "displayName": "Tinta de piedra",
+        "canonical": "#2b241c",
+        "oklch": "oklch(26.6% 0.018 70.7)",
+        "tonalRamp": [
+          "oklch(15% 0.008 70.7)",
+          "oklch(26.4% 0.013 70.7)",
+          "oklch(37.9% 0.016 70.7)",
+          "oklch(49.3% 0.018 70.7)",
+          "oklch(60.7% 0.018 70.7)",
+          "oklch(72.1% 0.016 70.7)",
+          "oklch(83.6% 0.013 70.7)",
+          "oklch(95% 0.008 70.7)"
+        ]
+      },
+      "on-stone-soft": {
+        "role": "neutral",
+        "displayName": "Tinta de piedra suave",
+        "canonical": "#4d4438",
+        "oklch": "oklch(39.2% 0.023 74.9)",
+        "tonalRamp": [
+          "oklch(15% 0.01 74.9)",
+          "oklch(26.4% 0.017 74.9)",
+          "oklch(37.9% 0.021 74.9)",
+          "oklch(49.3% 0.023 74.9)",
+          "oklch(60.7% 0.023 74.9)",
+          "oklch(72.1% 0.021 74.9)",
+          "oklch(83.6% 0.017 74.9)",
+          "oklch(95% 0.01 74.9)"
+        ]
+      },
+      "field-paper": {
+        "role": "neutral",
+        "displayName": "Papel de campo",
+        "canonical": "#f7f4ef",
+        "oklch": "oklch(96.8% 0.007 80.7)",
+        "tonalRamp": [
+          "oklch(15% 0.003 80.7)",
+          "oklch(26.4% 0.005 80.7)",
+          "oklch(37.9% 0.007 80.7)",
+          "oklch(49.3% 0.007 80.7)",
+          "oklch(60.7% 0.007 80.7)",
+          "oklch(72.1% 0.007 80.7)",
+          "oklch(83.6% 0.005 80.7)",
+          "oklch(95% 0.003 80.7)"
+        ]
+      },
+      "field-rule": {
+        "role": "neutral",
+        "displayName": "Regla de campo",
+        "canonical": "#9f9584",
+        "oklch": "oklch(67.4% 0.027 81.1)",
+        "tonalRamp": [
+          "oklch(15% 0.012 81.1)",
+          "oklch(26.4% 0.019 81.1)",
+          "oklch(37.9% 0.024 81.1)",
+          "oklch(49.3% 0.027 81.1)",
+          "oklch(60.7% 0.027 81.1)",
+          "oklch(72.1% 0.024 81.1)",
+          "oklch(83.6% 0.019 81.1)",
+          "oklch(95% 0.012 81.1)"
+        ]
+      },
+      "collection-suspiros": {
+        "role": "tertiary",
+        "displayName": "Suspiros café",
+        "canonical": "#6e5644",
+        "oklch": "oklch(47.3% 0.042 58.4)",
+        "tonalRamp": [
+          "oklch(15% 0.019 58.4)",
+          "oklch(26.4% 0.03 58.4)",
+          "oklch(37.9% 0.038 58.4)",
+          "oklch(49.3% 0.042 58.4)",
+          "oklch(60.7% 0.042 58.4)",
+          "oklch(72.1% 0.038 58.4)",
+          "oklch(83.6% 0.03 58.4)",
+          "oklch(95% 0.019 58.4)"
+        ]
+      },
+      "collection-face-to-face": {
+        "role": "tertiary",
+        "displayName": "Face to face verde helecho",
+        "canonical": "#26331f",
+        "oklch": "oklch(30.3% 0.039 135)",
+        "tonalRamp": [
+          "oklch(15% 0.017 135)",
+          "oklch(26.4% 0.028 135)",
+          "oklch(37.9% 0.035 135)",
+          "oklch(49.3% 0.038 135)",
+          "oklch(60.7% 0.038 135)",
+          "oklch(72.1% 0.035 135)",
+          "oklch(83.6% 0.028 135)",
+          "oklch(95% 0.017 135)"
+        ]
+      },
+      "collection-abrazos-de-flor": {
+        "role": "tertiary",
+        "displayName": "Abrazos de flor carmesí",
+        "canonical": "#8a1426",
+        "oklch": "oklch(41.1% 0.151 20)",
+        "tonalRamp": [
+          "oklch(15% 0.067 20)",
+          "oklch(26.4% 0.108 20)",
+          "oklch(37.9% 0.135 20)",
+          "oklch(49.3% 0.149 20)",
+          "oklch(60.7% 0.149 20)",
+          "oklch(72.1% 0.135 20)",
+          "oklch(83.6% 0.108 20)",
+          "oklch(95% 0.067 20)"
+        ]
+      },
+      "collection-todo-de-mi": {
+        "role": "tertiary",
+        "displayName": "Todo de mí rosa",
+        "canonical": "#f2c6dc",
+        "oklch": "oklch(87.1% 0.057 346.8)",
+        "tonalRamp": [
+          "oklch(15% 0.026 346.8)",
+          "oklch(26.4% 0.041 346.8)",
+          "oklch(37.9% 0.051 346.8)",
+          "oklch(49.3% 0.057 346.8)",
+          "oklch(60.7% 0.057 346.8)",
+          "oklch(72.1% 0.051 346.8)",
+          "oklch(83.6% 0.041 346.8)",
+          "oklch(95% 0.026 346.8)"
+        ]
+      },
+      "collection-luna-de-rosa": {
+        "role": "tertiary",
+        "displayName": "Luna de rosa granate (mármol)",
+        "canonical": "#2a1518",
+        "oklch": "oklch(22.6% 0.035 11)",
+        "tonalRamp": [
+          "oklch(15% 0.015 11)",
+          "oklch(26.4% 0.025 11)",
+          "oklch(37.9% 0.031 11)",
+          "oklch(49.3% 0.034 11)",
+          "oklch(60.7% 0.034 11)",
+          "oklch(72.1% 0.031 11)",
+          "oklch(83.6% 0.025 11)",
+          "oklch(95% 0.015 11)"
+        ]
+      },
+      "collection-orbitas-doradas": {
+        "role": "tertiary",
+        "displayName": "Órbitas doradas celeste",
+        "canonical": "#8fbac9",
+        "oklch": "oklch(76.3% 0.051 221.3)",
+        "tonalRamp": [
+          "oklch(15% 0.023 221.3)",
+          "oklch(26.4% 0.036 221.3)",
+          "oklch(37.9% 0.045 221.3)",
+          "oklch(49.3% 0.05 221.3)",
+          "oklch(60.7% 0.05 221.3)",
+          "oklch(72.1% 0.045 221.3)",
+          "oklch(83.6% 0.036 221.3)",
+          "oklch(95% 0.023 221.3)"
+        ]
+      }
+    },
+    "collectionAmbience": {
+      "source": "src/config/collections.js",
+      "note": "Trío por colección aplicado como --c-bg / --c-ink / --c-soft a escala de región.",
+      "suspiros": {
+        "bg": "#6e5644",
+        "ink": "#f7f0e6",
+        "soft": "#e6d6c2"
+      },
+      "face-to-face": {
+        "bg": "#26331f",
+        "ink": "#f2eee4",
+        "soft": "#cfd8c3"
+      },
+      "abrazos-de-flor": {
+        "bg": "#8a1426",
+        "ink": "#fdf0ec",
+        "soft": "#f3cfcf"
+      },
+      "todo-de-mi": {
+        "bg": "#f2c6dc",
+        "ink": "#2b1520",
+        "soft": "#5d3546"
+      },
+      "luna-de-rosa": {
+        "bg": "#2a1518",
+        "ink": "#f7ede9",
+        "soft": "#dcc2c5",
+        "texture": "marmol"
+      },
+      "orbitas-doradas": {
+        "bg": "#8fbac9",
+        "ink": "#0f222a",
+        "soft": "#21424f"
+      },
+      "reserve": [
+        {
+          "bg": "#3b2a1f",
+          "ink": "#f6eee2",
+          "soft": "#dccbb6"
+        },
+        {
+          "bg": "#1d2a33",
+          "ink": "#eef2f4",
+          "soft": "#c3d0d8"
+        },
+        {
+          "bg": "#5a1f2c",
+          "ink": "#fbeef0",
+          "soft": "#ebc7cd"
+        }
+      ]
+    },
+    "textures": [
+      {
+        "name": "grain",
+        "token": "--grain",
+        "purpose": "Grano y poros del sillar sobre toda superficie de piedra."
+      },
+      {
+        "name": "marble",
+        "token": "--marble",
+        "purpose": "Veta de mármol exclusiva de Luna de rosa."
+      },
+      {
+        "name": "frieze",
+        "token": "--frieze",
+        "purpose": "Friso de tulipanes en bajorrelieve, 48 × 33px en repetición horizontal sobre una hilada de 30px, en fachada, bandas y pie."
+      },
+      {
+        "name": "cornice-night",
+        "token": ".facade, .band",
+        "purpose": "Degradado de muro iluminado desde el suelo bajo el grano: #e8d3a6 0%, #d6cdbd 38%, #a79f91 78%, #7d766a 100%."
+      }
+    ],
+    "typographyMeta": {
+      "display": {
+        "displayName": "Caligrafía",
+        "purpose": "Palabra de acento de la portada y nombres de colección."
+      },
+      "headline": {
+        "displayName": "Inscripción",
+        "purpose": "Títulos de sección grabados en mayúsculas."
+      },
+      "title": {
+        "displayName": "Nombre de pieza",
+        "purpose": "Nombres de arreglos, peldaños y artículos del pedido."
+      },
+      "body": {
+        "displayName": "Texto",
+        "purpose": "Texto corrido e interfaz."
+      },
+      "label": {
+        "displayName": "Rótulo grabado",
+        "purpose": "Navegación, pestañas, términos y títulos de la orla."
+      },
+      "data": {
+        "displayName": "Dato",
+        "purpose": "Talla y metadatos de colección junto al dato."
+      },
+      "price": {
+        "displayName": "Precio",
+        "purpose": "Precios, subtotal y cantidades con cifras tabulares."
+      }
+    },
+    "shadows": [
+      {
+        "name": "frieze-course",
+        "value": "inset 0 2px 0 rgb(60 50 36 / .45), 0 8px 12px -8px rgb(20 14 6 / .6)",
+        "purpose": "Hilada de friso de 30px que corona cada banda."
+      },
+      {
+        "name": "niche-hollow",
+        "value": "inset 0 16px 18px -8px rgb(0 0 0 / .6), inset 0 -10px 16px -10px rgb(0 0 0 / .45)",
+        "purpose": "Hunde el hueco de la hornacina."
+      },
+      {
+        "name": "band-hollow",
+        "value": "inset 0 22px 26px -12px rgb(0 0 0 / .55), inset 0 0 0 1px rgb(255 255 255 / .08)",
+        "purpose": "Campo de color de la banda de colección."
+      },
+      {
+        "name": "arch-bevel",
+        "value": "inset 0 2px 0 rgb(255 255 255 / .35), inset 0 -3px 0 rgb(60 50 36 / .25)",
+        "purpose": "Marco de piedra del arco."
+      },
+      {
+        "name": "arris",
+        "value": "inset 0 1px 0 var(--sillar-hi)",
+        "purpose": "Arista iluminada de zócalos, plintos y frisos."
+      },
+      {
+        "name": "step",
+        "value": "0 10px 14px -8px rgb(0 0 0 / .7)",
+        "purpose": "Peldaño de la escalinata sobre la noche."
+      },
+      {
+        "name": "lit-glow",
+        "value": "radial-gradient(130% 55% at 50% 118%, rgb(255 210 130 / .7), rgb(255 210 130 / 0) 62%)",
+        "purpose": "Luz que sube desde la base de la hornacina encendida."
+      },
+      {
+        "name": "tablet",
+        "value": "0 30px 80px rgb(0 0 0 / .6)",
+        "purpose": "Tablilla del diálogo de pedido en escritorio."
+      },
+      {
+        "name": "sheet",
+        "value": "0 -10px 40px rgb(0 0 0 / .5)",
+        "purpose": "Diálogo como hoja inferior en móvil."
+      },
+      {
+        "name": "gold-halo",
+        "value": "0 10px 22px -10px rgb(226 197 133 / .55)",
+        "purpose": "Luz cálida bajo el botón dorado; en hover 0 12px 26px -8px al .7."
+      },
+      {
+        "name": "float-halo",
+        "value": "0 10px 26px -6px rgb(226 197 133 / .45)",
+        "purpose": "Halo del botón flotante del pedido."
+      },
+      {
+        "name": "piece-lit-halo",
+        "value": "0 10px 20px -8px rgb(226 197 133 / .7)",
+        "purpose": "Botón de pieza encendido."
+      },
+      {
+        "name": "lit-arch-halo",
+        "value": "0 16px 34px -8px rgb(240 200 120 / .75)",
+        "purpose": "Luz que la hornacina encendida derrama bajo su arco."
+      },
+      {
+        "name": "lit-add-glow",
+        "value": "inset 0 0 0 3px var(--gold-hi), 0 8px 20px -4px rgb(240 200 120 / .9)",
+        "purpose": "Anillo y halo del «+» de hornacina encendido."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-light",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Única curva: luz que sube y baja, sin rebote."
+      },
+      {
+        "name": "light-rise",
+        "value": "400ms",
+        "purpose": "Encendido de hornacinas (halo del arco, resplandor, filetes) y piezas; giro del «+» de preguntas."
+      },
+      {
+        "name": "control",
+        "value": "250-300ms",
+        "purpose": "Cambios de color de botones y controles."
+      },
+      {
+        "name": "reduced",
+        "value": "none",
+        "purpose": "Con prefers-reduced-motion se anulan transiciones y animaciones."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs-max",
+        "value": "359px"
+      },
+      {
+        "name": "sm",
+        "value": "560px"
+      },
+      {
+        "name": "md",
+        "value": "760px"
+      },
+      {
+        "name": "lg",
+        "value": "1100px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón dorado",
+      "kind": "button",
+      "refersTo": "button-gold",
+      "description": "Acción principal: cara de noche, canto dorado interno y halo cálido debajo.",
+      "html": "<button class=\"ds-btn-gold\">Elige tu detalle <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-gold{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:0 22px;border:0;border-radius:3px;font-family:'Hanken Grotesk Variable',system-ui,sans-serif;font-weight:600;font-size:15px;letter-spacing:.01em;cursor:pointer;transition:background-color .25s cubic-bezier(.16, 1, .3, 1),color .25s cubic-bezier(.16, 1, .3, 1),box-shadow .25s cubic-bezier(.16, 1, .3, 1);background:var(--night, #0c0b0a);color:var(--gold-hi, #e2c585);box-shadow:inset 0 0 0 1px var(--gold, #c8a45c),0 10px 22px -10px rgb(226 197 133 / .55);} .ds-btn-gold:hover{background:#1d1810;color:#f1d9a2;box-shadow:inset 0 0 0 1px var(--gold-hi, #e2c585),0 12px 26px -8px rgb(226 197 133 / .7);} .ds-btn-gold:focus-visible{outline:2px solid var(--gold, #c8a45c);outline-offset:3px;}"
+    },
+    {
+      "name": "Botón de piedra",
+      "kind": "button",
+      "refersTo": "button-stone",
+      "description": "Variante llana de sillar para acciones sobre noche que no son la principal.",
+      "html": "<button class=\"ds-btn-stone\">Ver colección</button>",
+      "css": ".ds-btn-stone{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:0 22px;border:0;border-radius:3px;font-family:'Hanken Grotesk Variable',system-ui,sans-serif;font-weight:600;font-size:15px;letter-spacing:.01em;cursor:pointer;transition:background-color .25s cubic-bezier(.16, 1, .3, 1),color .25s cubic-bezier(.16, 1, .3, 1),box-shadow .25s cubic-bezier(.16, 1, .3, 1);background:var(--sillar, #d8d2c7);color:var(--on-stone, #2b241c);} .ds-btn-stone:hover{background:var(--sillar-hi, #ece7df);} .ds-btn-stone:focus-visible{outline:2px solid var(--gold, #c8a45c);outline-offset:3px;}"
+    },
+    {
+      "name": "Enlace dorado",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Enlace de acción secundaria sobre noche, con flecha.",
+      "html": "<a href=\"#\" class=\"ds-text-link\">Ver todas las colecciones <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;color:var(--gold, #c8a45c);font-family:'Hanken Grotesk Variable',system-ui,sans-serif;font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px;} .ds-text-link:hover{color:var(--gold-hi, #e2c585);} .ds-text-link:focus-visible{outline:2px solid var(--gold, #c8a45c);outline-offset:3px;}"
+    },
+    {
+      "name": "Pestañas de colección",
+      "kind": "chip",
+      "refersTo": "tab-active",
+      "description": "Filtro por colección; la activa se vuelve un bloque de sillar.",
+      "html": "<div class=\"ds-tabs\"><button class=\"ds-tab\" aria-pressed=\"true\">Todos</button><button class=\"ds-tab\" aria-pressed=\"false\">Suspiros</button><button class=\"ds-tab\" aria-pressed=\"false\">Luna de rosa</button></div>",
+      "css": ".ds-tabs{display:flex;gap:4px;padding:8px;background:var(--night, #0c0b0a);} .ds-tab{min-height:44px;padding:0 14px;border:0;border-radius:3px;background:none;cursor:pointer;font-family:Marcellus,'Times New Roman',serif;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--on-night-soft, #b8ad98);transition:color .2s,background-color .2s;} .ds-tab:hover{color:var(--on-night, #efe7d6);} .ds-tab[aria-pressed=\"true\"]{background-color:var(--sillar,#d8d2c7);background-image:linear-gradient(to top,#e3cfa6 0%,var(--sillar,#d8d2c7) 55%,#cdc6ba 100%);color:var(--on-stone,#2b241c);} .ds-tab:focus-visible{outline:2px solid var(--gold, #c8a45c);outline-offset:3px;}"
+    },
+    {
+      "name": "Campo de pedido",
+      "kind": "input",
+      "refersTo": "input-order",
+      "description": "Campo del formulario dentro de la tablilla de piedra.",
+      "html": "<label class=\"ds-field\">Fecha deseada<input class=\"ds-input\" placeholder=\"Ej. sábado 14\"></label>",
+      "css": ".ds-field{display:block;padding:20px;background-color:var(--sillar,#d8d2c7);background-image:linear-gradient(to top,#e3cfa6 0%,var(--sillar,#d8d2c7) 55%,#cdc6ba 100%);color:var(--on-stone,#2b241c);font-family:'Hanken Grotesk Variable',system-ui,sans-serif;font-size:14px;font-weight:600;} .ds-input{display:block;margin-top:6px;width:100%;box-sizing:border-box;min-height:48px;padding:11px 12px;border:1px solid #9f9584;border-radius:3px;background:#f7f4ef;color:var(--on-stone, #2b241c);font:inherit;font-size:16px;font-weight:400;} .ds-input::placeholder{color:#7a705f;} .ds-input:focus{border-color:var(--gold-deep, #7a5f2c);outline:2px solid rgb(200 164 92 / .55);outline-offset:0;}"
+    },
+    {
+      "name": "Cabecera",
+      "kind": "nav",
+      "refersTo": "count-badge",
+      "description": "Cabecera de noche con navegación grabada y contador del pedido.",
+      "html": "<header class=\"ds-header\"><span class=\"ds-brand\">ANTHALIS</span><nav class=\"ds-nav\"><a href=\"#\">Colecciones</a><a href=\"#\">Cómo pedir</a><a href=\"#\">Preguntas</a></nav><button class=\"ds-bag\">Pedido <b>2</b></button></header>",
+      "css": ".ds-header{display:flex;align-items:center;justify-content:space-between;gap:24px;height:64px;padding:0 16px;background:var(--night, #0c0b0a);border-bottom:1px solid var(--night-line, #2c271f);} .ds-brand{font-family:Marcellus,serif;letter-spacing:.16em;color:var(--gold, #c8a45c);} .ds-nav{display:flex;gap:32px;} .ds-nav a{font-family:Marcellus,serif;text-transform:uppercase;letter-spacing:.1em;font-size:14px;color:var(--on-night-soft, #b8ad98);text-decoration:none;min-height:44px;display:flex;align-items:center;} .ds-nav a:hover{color:var(--gold-hi, #e2c585);} .ds-nav a:focus-visible,.ds-bag:focus-visible{outline:2px solid var(--gold, #c8a45c);outline-offset:3px;} .ds-bag{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 10px;border:0;background:none;cursor:pointer;color:var(--on-night, #efe7d6);font-family:'Hanken Grotesk Variable',system-ui,sans-serif;font-size:14px;font-weight:600;} .ds-bag b{min-width:24px;height:24px;padding:0 6px;border-radius:12px;display:grid;place-items:center;background:var(--gold, #c8a45c);color:var(--night, #0c0b0a);font-size:13px;font-variant-numeric:tabular-nums;}"
+    },
+    {
+      "name": "Hornacina",
+      "kind": "custom",
+      "refersTo": "niche-add",
+      "description": "Unidad firma: arco de sillar con el hueco de la colección, plinto con talla, precio y «+». Hover simula el estado encendido: la piedra del arco se dora desde abajo.",
+      "html": "<div class=\"ds-niche\"><div class=\"ds-arch\"><div class=\"ds-hollow\"><span class=\"ds-niche-name\">Abrazos de flor</span><div class=\"ds-photo\"></div></div></div><div class=\"ds-plinth\"><div><p class=\"ds-size\">Talla mediana · grande</p><p class=\"ds-price\">S/ 120</p></div><button class=\"ds-add\" aria-label=\"Agregar\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></button></div></div>",
+      "css": ".ds-niche{width:240px;font-family:'Hanken Grotesk Variable',system-ui,sans-serif;background-color:var(--sillar,#d8d2c7);background-image:linear-gradient(to top,#e3cfa6 0%,var(--sillar,#d8d2c7) 55%,#cdc6ba 100%);color:var(--on-stone,#2b241c);padding:12px;} .ds-arch{padding:7px 7px 0;transition:box-shadow .4s cubic-bezier(.16, 1, .3, 1);border-radius:999px 999px 0 0;background:linear-gradient(to bottom,#a89f90,#e6dccb 70%);box-shadow:inset 0 2px 0 rgb(255 255 255 / .35),inset 0 -3px 0 rgb(60 50 36 / .25);} .ds-hollow{position:relative;isolation:isolate;overflow:hidden;display:grid;gap:8px;padding:22px 14px 12px;border-radius:999px 999px 0 0;background:#8a1426;color:#fdf0ec;box-shadow:inset 0 16px 18px -8px rgb(0 0 0 / .6),inset 0 -10px 16px -10px rgb(0 0 0 / .45);} .ds-hollow::before{content:'';position:absolute;inset:0;z-index:-1;background:radial-gradient(130% 55% at 50% 118%,rgb(255 210 130 / .7),rgb(255 210 130 / 0) 62%);opacity:.28;transform:translateY(18%);transition:opacity .4s cubic-bezier(.16, 1, .3, 1),transform .4s cubic-bezier(.16, 1, .3, 1);} .ds-niche:hover .ds-hollow::before{opacity:1;transform:none;} .ds-niche:hover .ds-arch{background:linear-gradient(to top,#f3d48e 0%,#d6b46c 35%,#b9a27a 70%,#a89f90 100%);box-shadow:inset 0 2px 0 rgb(255 240 200 / .6),0 16px 34px -8px rgb(240 200 120 / .75);} .ds-niche:hover .ds-hollow{box-shadow:inset 0 0 0 2px var(--gold-hi, #e2c585),inset 0 16px 18px -8px rgb(0 0 0 / .55),inset 0 -10px 16px -10px rgb(0 0 0 / .4);} .ds-niche:hover .ds-plinth{border-top-color:var(--gold, #c8a45c);} .ds-niche-name{font-family:'Pinyon Script',cursive;font-size:30px;line-height:1.05;text-align:center;} .ds-photo{aspect-ratio:1;background:#efe6d6;border:1px solid rgb(200 164 92 / .75);box-shadow:0 12px 18px -10px rgb(0 0 0 / .6);} .ds-plinth{transition:border-color .4s cubic-bezier(.16, 1, .3, 1);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 6px 2px;border-top:3px solid var(--sillar-lo, #b2a998);box-shadow:inset 0 1px 0 var(--sillar-hi, #ece7df);} .ds-plinth p{margin:0;} .ds-size{font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--on-stone-soft, #4d4438);} .ds-price{font-size:20px;font-weight:650;font-variant-numeric:tabular-nums lining-nums;} .ds-add{width:48px;height:48px;border:0;border-radius:50%;display:grid;place-items:center;cursor:pointer;background:var(--night, #0c0b0a);color:var(--gold, #c8a45c);box-shadow:0 4px 8px -3px rgb(30 22 10 / .55);transition:background-color .3s cubic-bezier(.16, 1, .3, 1),color .3s cubic-bezier(.16, 1, .3, 1),box-shadow .3s cubic-bezier(.16, 1, .3, 1);} .ds-niche:hover .ds-add{background:#1d1810;color:var(--gold-hi, #e2c585);box-shadow:inset 0 0 0 3px var(--gold-hi, #e2c585),0 8px 20px -4px rgb(240 200 120 / .9);} .ds-add:focus-visible{outline:2px solid var(--gold-deep, #7a5f2c);outline-offset:3px;}"
+    },
+    {
+      "name": "Banda de colección",
+      "kind": "custom",
+      "refersTo": "band",
+      "description": "Muro de sillar con cornisa nocturna, hilada de friso de 30px y campo de color en arco elíptico con borde de piedra; la segunda pieza muestra el botón encendido.",
+      "html": "<section class=\"ds-band\"><div class=\"ds-frieze\"></div><div class=\"ds-field\"><h3 class=\"ds-band-name\">Abrazos de flor</h3><p class=\"ds-band-meta\">Talla mediana · Color personalizable · 4 arreglos</p><div class=\"ds-pieces\"><div class=\"ds-piece\"><div class=\"ds-ph\"></div><p class=\"ds-pn\">Ramo carmín</p><button class=\"ds-padd\">Agregar</button></div><div class=\"ds-piece ds-lit\"><div class=\"ds-ph\"></div><p class=\"ds-pn\">Caja de rosas</p><button class=\"ds-padd\">En tu pedido <b>1</b></button></div></div></div><div class=\"ds-zocalo\"></div></section>",
+      "css": ".ds-band{position:relative;padding:30px 0 0;width:420px;background-color:#d8d2c7;background-image:linear-gradient(to top,#e8d3a6 0%,#d6cdbd 38%,#a79f91 78%,#7d766a 100%);font-family:'Hanken Grotesk Variable',system-ui,sans-serif;color:#fdf0ec;} .ds-frieze{position:absolute;top:0;left:0;right:0;height:30px;background:linear-gradient(to top,#e4d2ab,#bdb4a4);box-shadow:inset 0 2px 0 rgb(60 50 36 / .45),0 8px 12px -8px rgb(20 14 6 / .6);} .ds-field{margin:22px 12px 0;padding:56px 16px 32px;background:#8a1426;border-radius:50% 50% 0 0 / 84px 84px 0 0;box-shadow:inset 0 22px 26px -12px rgb(0 0 0 / .55),inset 0 0 0 1px rgb(255 255 255 / .08);outline:6px solid #ddd3c2;text-align:center;} .ds-band-name{margin:0;font-family:'Pinyon Script',cursive;font-weight:400;font-size:54px;line-height:1.05;} .ds-band-meta{margin:6px 0 28px;font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#f3cfcf;} .ds-pieces{display:grid;grid-template-columns:1fr 1fr;gap:14px;text-align:left;} .ds-ph{aspect-ratio:1;background:#efe6d6;box-shadow:0 14px 22px -14px rgb(0 0 0 / .7);transition:box-shadow .4s cubic-bezier(.16, 1, .3, 1);} .ds-lit .ds-ph{box-shadow:inset 0 0 0 3px #c8a45c,inset 0 -60px 50px -30px rgb(255 205 120 / .5);} .ds-pn{margin:8px 0 0;font-family:Marcellus,serif;font-size:17px;} .ds-padd{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:44px;margin-top:6px;border:0;border-radius:3px;background:none;cursor:pointer;font:inherit;font-size:14px;font-weight:600;color:#fdf0ec;box-shadow:inset 0 0 0 1px color-mix(in srgb,#fdf0ec 45%,transparent);transition:background-color .3s cubic-bezier(.16, 1, .3, 1),color .3s cubic-bezier(.16, 1, .3, 1);} .ds-padd:hover{background:color-mix(in srgb,#fdf0ec 10%,transparent);} .ds-lit .ds-padd{background:#0c0b0a;color:#e2c585;box-shadow:inset 0 0 0 2px #c8a45c,0 10px 20px -8px rgb(226 197 133 / .7);} .ds-padd b{min-width:22px;height:22px;border-radius:11px;display:grid;place-items:center;font-size:12px;background:#0c0b0a;color:#c8a45c;} .ds-padd:focus-visible{outline:2px solid #c8a45c;outline-offset:3px;} .ds-zocalo{height:12px;background:#b2a998;box-shadow:inset 0 1px 0 #ece7df;}"
+    },
+    {
+      "name": "Botón flotante del pedido",
+      "kind": "button",
+      "refersTo": "floating-order",
+      "description": "Barra fija que abre el pedido: cara de noche con canto dorado y halo cálido; la cantidad va en disco dorado.",
+      "html": "<button class=\"ds-float\">Ver mi pedido <b>3</b></button>",
+      "css": ".ds-float{display:flex;align-items:center;justify-content:center;gap:12px;min-height:52px;width:320px;border:0;border-radius:3px;cursor:pointer;background:var(--night, #0c0b0a);color:var(--gold-hi, #e2c585);outline:1px solid var(--gold, #c8a45c);outline-offset:-1px;font-family:'Hanken Grotesk Variable',system-ui,sans-serif;font-weight:650;font-size:15px;box-shadow:0 10px 26px -6px rgb(226 197 133 / .45);} .ds-float:hover{background:#1d1810;} .ds-float:focus-visible{outline:2px solid var(--gold-hi, #e2c585);outline-offset:3px;} .ds-float b{min-width:26px;height:26px;border-radius:13px;display:grid;place-items:center;background:var(--gold, #c8a45c);color:var(--night, #0c0b0a);font-size:13px;font-variant-numeric:tabular-nums;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Sillar de noche",
+    "overview": "Anthalis se presenta como una portada de sillar arequipeño vista de noche: el negro nocturno domina, la piedra tallada aparece en marcos, arcos, frisos y orlas, y el oro del logo se comporta como luz, no como pintura. Cada colección vive en su propia hornacina, con el fondo de color que traía su página en el catálogo original; la hornacina es a la vez la unidad visual y la unidad de navegación, y la banda de colección repite el mismo arco a escala de muro.\n\nEl sistema alterna dos materiales con dos tintas: noche (texto claro `on-night`) y piedra (texto oscuro `on-stone`). La piedra de los muros grandes (fachada y bandas) está iluminada desde el suelo y se apaga hacia la cornisa, como un muro bañado por reflectores. Las regiones de colección añaden un tercer registro, local y acotado: su fondo y su par de tintas solo existen dentro de su hornacina o su campo de banda. Las fotos de producto se muestran tal cual, sin filtros ni tintes.\n\nLa densidad es de escaparate móvil: hileras deslizables con la siguiente pieza asomando, bloques de piedra completos y aire generoso entre secciones (72 a 96px). El movimiento es luz que sube y baja con una sola curva, sin rebotes.",
+    "keyCharacteristics": [
+      "Negro nocturno dominante; la piedra aparece como bloque entero con grano, nunca como tinte suave.",
+      "Oro como luz y filo: contornos internos, halos cálidos, cifras de estado y texto de acción; los controles son caras de noche con canto dorado.",
+      "Arco como silueta firma: medio punto en las hornacinas, arco elíptico en el campo de cada banda.",
+      "Tres voces tipográficas con papeles fijos: inscripción grabada, caligrafía de nombre, texto de interfaz.",
+      "Estado «encendido» inequívoco cuando un arreglo está en el pedido: la luz dorada sube por la piedra."
+    ],
+    "rules": [
+      {
+        "name": "The One Light Rule",
+        "body": "El oro es la única luz de todo lo que no es producto. En los controles es canto más luz: cara `night`, contorno interno dorado y un halo cálido que cae bajo el control; nunca un relleno dorado plano. Sobre la piedra aparece como luz que sube (el degradado del arco encendido), no como pintura. Solo las insignias de cantidad (22 a 26px) y la selección de texto llevan oro plano, porque son puntos de luz, no superficies.",
+        "section": "colors"
+      },
+      {
+        "name": "The Region Rule",
+        "body": "Un color de colección solo pinta una región completa de su colección (hueco de nicho, campo de banda, pieza teñida). Nunca se usa como acento suelto fuera de ella, y su texto usa siempre su propio par `--c-ink` / `--c-soft`.",
+        "section": "colors"
+      },
+      {
+        "name": "The Untouched Photo Rule",
+        "body": "Las fotos de producto no se tiñen, filtran ni recortan con máscaras; el marco y la luz las rodean, no las alteran.",
+        "section": "colors"
+      },
+      {
+        "name": "The Three Voices Rule",
+        "body": "Marcellus graba, Pinyon nombra, Hanken informa. La caligrafía solo nombra colecciones o pone una palabra de acento por titular; nunca va en botones, precios, cuerpo ni etiquetas.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Price Rule",
+        "body": "Toda cifra de precio, cantidad o contador lleva `font-variant-numeric: tabular-nums` (y `lining-nums` en precios).",
+        "section": "typography"
+      },
+      {
+        "name": "The Middle Dot Rule",
+        "body": "Las líneas de datos separan sus partes con « · ». Dentro de cada parte y antes del punto los espacios son de no separación (U+00A0); el único espacio normal va después del punto, así que la línea solo se parte tras « · » y nunca deja «Talla» o un punto huérfanos.",
+        "section": "typography"
+      },
+      {
+        "name": "The Lit Niche Rule",
+        "body": "El estado encendido (`data-lit`) se expresa con luz que sube por la piedra, a la vez en todo el nicho: la piedra del arco pasa a un degradado de oro desde la base (#f3d48e, #d6b46c al 35%, #b9a27a al 70%, piedra #a89f90 arriba) con su halo; el hueco gana un filete interno de 2px en `gold-hi` y su resplandor radial sube (opacidad .28 a 1, sin desplazamiento); el plinto toma un filete superior en `gold`; el «+» pasa a cara #1d1810 con anillo de 3px en `gold-hi` y halo; el contador pasa a «En tu pedido · n» en `gold-deep`. Las transiciones duran 400ms con `--ease-light`; con movimiento reducido el cambio es inmediato. La pieza de banda encendida sigue la misma gramática: contorno dorado de 3px y luz cálida desde abajo sobre la foto, y su botón como cara `night` con canto dorado de 2px.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Light From Below Rule",
+        "body": "Los degradados de piedra, los resplandores y los halos entran o caen desde abajo, como la iluminación nocturna de una fachada; ninguna luz cae desde arriba y la cornisa es siempre la parte más oscura del muro.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** construir cada superficie nueva con los dos materiales: noche con texto `on-night`, o piedra con grano (`--grain` sobre `sillar`) con texto `on-stone`.",
+      "**Do** dar a los muros de piedra grandes el degradado de cornisa nocturna: claro y cálido en la base, apagado arriba.",
+      "**Do** expresar todo control dorado como cara `night`, texto `gold-hi`, canto dorado interno y halo cálido debajo, no con un relleno dorado.",
+      "**Do** usar `gold-deep` para cualquier oro sobre piedra.",
+      "**Do** aplicar los colores de colección solo como región completa, con su propio par de tintas.",
+      "**Do** mostrar el estado «en el pedido» con la regla del nicho encendido: piedra que se dora desde abajo, filete dorado, resplandor y halo, en 400ms con `cubic-bezier(.16, 1, .3, 1)`.",
+      "**Do** usar cifras tabulares en precios, cantidades y contadores.",
+      "**Do** unir las partes de cada línea de datos con espacios de no separación y cortar solo después de « · ».",
+      "**Do** mantener objetivos táctiles de 44px como mínimo (48px en controles primarios)."
+    ],
+    "donts": [
+      "**Don't** usar el oro como superficie plana de botón, banda o sección; solo los discos de cantidad lo llevan plano.",
+      "**Don't** usar Pinyon Script fuera de nombres de colección y de una palabra de acento por titular.",
+      "**Don't** teñir, filtrar ni enmascarar las fotos de producto.",
+      "**Don't** usar un color de colección como acento suelto fuera de su región.",
+      "**Don't** iluminar desde arriba ni dejar la cornisa más clara que la base.",
+      "**Don't** añadir rebotes ni movimientos que no sean luz que sube o baja; con `prefers-reduced-motion` todo queda estático.",
+      "**Don't** convertir la página en la florería por defecto (foto grande, titular, botón y cuadrícula de tarjetas iguales) ni en un negro y oro de lujo genérico."
+    ]
+  }
+}

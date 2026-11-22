@@ -1,0 +1,505 @@
+{
+  "negocio": [
+    {
+      "clave": "nombre",
+      "valor": "Anthalis",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "descriptor",
+      "valor": "Florería en Arequipa",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "presentacion",
+      "valor": "Arreglos florales para acompañar tus grandes momentos. Elige un diseño y coordina sus detalles.",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "whatsapp",
+      "valor": "51984997937",
+      "ayuda": "WhatsApp comercial de Anthalis."
+    },
+    {
+      "clave": "mensaje_inicial",
+      "valor": "Hola, quisiera consultar estos arreglos de Anthalis:",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "instagram",
+      "valor": "",
+      "ayuda": "No verificado. Mantener vacío hasta confirmar."
+    },
+    {
+      "clave": "direccion",
+      "valor": "Av. Vidaurrazaga Mz. K – Lt. 15, José Luis Bustamante y Rivero, Arequipa",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "ciudad",
+      "valor": "Arequipa, Perú",
+      "ayuda": "Texto editable. Conservar la clave."
+    }
+  ],
+  "portada": [
+    {
+      "clave": "etiqueta",
+      "valor": "ANTHALIS · FLORERÍA EN AREQUIPA",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "titulo",
+      "valor": "Hay momentos que merecen",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "acento",
+      "valor": "flores.",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "descripcion",
+      "valor": "Un abrazo, un gracias, un te quiero. Descubre un detalle para convertir lo que sientes en un gran momento.",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "boton",
+      "valor": "Explorar arreglos",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "nota",
+      "valor": "Abrazos de flor · Colección Anthalis",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "historia_titulo",
+      "valor": "Elige las flores. Hazlo tuyo.",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "historia_texto",
+      "valor": "Rosas, tulipanes, girasoles y lirios: descubre las colecciones del catálogo Anthalis. Elige un diseño, consulta tus colores favoritos y acompáñalo con una dedicatoria. Cada detalle se coordina antes de confirmar el pedido.",
+      "ayuda": "Texto editable. Conservar la clave."
+    }
+  ],
+  "categorias": [
+    {
+      "id": "suspiros",
+      "nombre": "Suspiros",
+      "visible": "SI",
+      "orden": 1
+    },
+    {
+      "id": "face-to-face",
+      "nombre": "Face to face",
+      "visible": "SI",
+      "orden": 2
+    },
+    {
+      "id": "abrazos-de-flor",
+      "nombre": "Abrazos de flor",
+      "visible": "SI",
+      "orden": 3
+    },
+    {
+      "id": "todo-de-mi",
+      "nombre": "Todo de mí",
+      "visible": "SI",
+      "orden": 4
+    },
+    {
+      "id": "luna-de-rosa",
+      "nombre": "Luna de rosa",
+      "visible": "SI",
+      "orden": 5
+    },
+    {
+      "id": "orbitas-doradas",
+      "nombre": "Órbitas doradas",
+      "visible": "SI",
+      "orden": 6
+    }
+  ],
+  "productos": [
+    {
+      "id": "suspiros-01",
+      "nombre": "Suspiros · 01",
+      "descripcion": "Tulipanes en envoltura verde. Colores a coordinar.",
+      "precio": 59,
+      "categoria": "suspiros",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "SI",
+      "orden": 1,
+      "imagen": "suspiros-01",
+      "consultar_precio": "NO",
+      "talla": "Pequeña",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "suspiros-02",
+      "nombre": "Suspiros · 02",
+      "descripcion": "Rosas rojas con flores de acompañamiento y envoltura negra y dorada.",
+      "precio": 69,
+      "categoria": "suspiros",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 2,
+      "imagen": "suspiros-02",
+      "consultar_precio": "NO",
+      "talla": "Pequeña",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "suspiros-03",
+      "nombre": "Suspiros · 03",
+      "descripcion": "Girasoles en envoltura rosada.",
+      "precio": 79,
+      "categoria": "suspiros",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 3,
+      "imagen": "suspiros-03",
+      "consultar_precio": "NO",
+      "talla": "Pequeña",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "suspiros-04",
+      "nombre": "Suspiros · 04",
+      "descripcion": "Rosas rosadas con flores de acompañamiento y lazo blanco.",
+      "precio": 89,
+      "categoria": "suspiros",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 4,
+      "imagen": "suspiros-04",
+      "consultar_precio": "NO",
+      "talla": "Pequeña",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "face-to-face-01",
+      "nombre": "Face to face · 01",
+      "descripcion": "Lirios y rosas rojas con envoltura negra.",
+      "precio": 109,
+      "categoria": "face-to-face",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 5,
+      "imagen": "face-to-face-01",
+      "consultar_precio": "NO",
+      "talla": "Mediana",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "face-to-face-02",
+      "nombre": "Face to face · 02",
+      "descripcion": "Rosas rosadas y flores claras con envoltura estampada.",
+      "precio": 119,
+      "categoria": "face-to-face",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 6,
+      "imagen": "face-to-face-02",
+      "consultar_precio": "NO",
+      "talla": "Mediana",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "face-to-face-03",
+      "nombre": "Face to face · 03",
+      "descripcion": "Lirios rosados y envoltura rosada.",
+      "precio": 129,
+      "categoria": "face-to-face",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 7,
+      "imagen": "face-to-face-03",
+      "consultar_precio": "NO",
+      "talla": "Mediana",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "face-to-face-04",
+      "nombre": "Face to face · 04",
+      "descripcion": "Rosas rojas en envoltura oscura y lazo rojo.",
+      "precio": 139,
+      "categoria": "face-to-face",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 8,
+      "imagen": "face-to-face-04",
+      "consultar_precio": "NO",
+      "talla": "Mediana",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "abrazos-de-flor-01",
+      "nombre": "Abrazos de flor",
+      "descripcion": "Rosas rosadas y lirios blancos en un ramo grande con envoltura rosada.",
+      "precio": 179,
+      "categoria": "abrazos-de-flor",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "SI",
+      "orden": 9,
+      "imagen": "abrazos-de-flor-01",
+      "consultar_precio": "NO",
+      "talla": "Grande",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "todo-de-mi-01",
+      "nombre": "Todo de mí · 01",
+      "descripcion": "Gerberas rosadas con flores de acompañamiento.",
+      "precio": 129,
+      "categoria": "todo-de-mi",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 10,
+      "imagen": "todo-de-mi-01",
+      "consultar_precio": "NO",
+      "talla": "Mediana",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "todo-de-mi-02",
+      "nombre": "Todo de mí · 02",
+      "descripcion": "Rosas en tonos durazno con detalles de mariposas.",
+      "precio": 139,
+      "categoria": "todo-de-mi",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 11,
+      "imagen": "todo-de-mi-02",
+      "consultar_precio": "NO",
+      "talla": "Mediana",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "todo-de-mi-03",
+      "nombre": "Todo de mí · 03",
+      "descripcion": "Lirios claros y rosados con flores de acompañamiento.",
+      "precio": 149,
+      "categoria": "todo-de-mi",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 12,
+      "imagen": "todo-de-mi-03",
+      "consultar_precio": "NO",
+      "talla": "Mediana",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "todo-de-mi-04",
+      "nombre": "Todo de mí · 04",
+      "descripcion": "Tulipanes rosados con abundante follaje.",
+      "precio": 159,
+      "categoria": "todo-de-mi",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 13,
+      "imagen": "todo-de-mi-04",
+      "consultar_precio": "NO",
+      "talla": "Mediana",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "luna-de-rosa-01",
+      "nombre": "Luna de rosa · 01",
+      "descripcion": "Rosas rosadas y claras en envoltura clara.",
+      "precio": 159,
+      "categoria": "luna-de-rosa",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "SI",
+      "orden": 14,
+      "imagen": "luna-de-rosa-01",
+      "consultar_precio": "NO",
+      "talla": "Por confirmar",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "luna-de-rosa-02",
+      "nombre": "Luna de rosa · 02",
+      "descripcion": "Rosas en tonos rosados en envoltura negra y dorada.",
+      "precio": 169,
+      "categoria": "luna-de-rosa",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 15,
+      "imagen": "luna-de-rosa-02",
+      "consultar_precio": "NO",
+      "talla": "Por confirmar",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "luna-de-rosa-03",
+      "nombre": "Luna de rosa · 03",
+      "descripcion": "Rosas rojas en envoltura clara.",
+      "precio": 179,
+      "categoria": "luna-de-rosa",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 16,
+      "imagen": "luna-de-rosa-03",
+      "consultar_precio": "NO",
+      "talla": "Por confirmar",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "luna-de-rosa-04",
+      "nombre": "Luna de rosa · 04",
+      "descripcion": "Ramo de rosas rojas con envoltura blanca.",
+      "precio": 189,
+      "categoria": "luna-de-rosa",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 17,
+      "imagen": "luna-de-rosa-04",
+      "consultar_precio": "NO",
+      "talla": "Por confirmar",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "orbitas-doradas-01",
+      "nombre": "Órbitas doradas · 01",
+      "descripcion": "Girasoles con flores blancas y envoltura negra y dorada.",
+      "precio": 139,
+      "categoria": "orbitas-doradas",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "SI",
+      "orden": 18,
+      "imagen": "orbitas-doradas-01",
+      "consultar_precio": "NO",
+      "talla": "Grande",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "orbitas-doradas-02",
+      "nombre": "Órbitas doradas · 02",
+      "descripcion": "Girasoles con follaje en envoltura negra y dorada.",
+      "precio": 149,
+      "categoria": "orbitas-doradas",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 19,
+      "imagen": "orbitas-doradas-02",
+      "consultar_precio": "NO",
+      "talla": "Grande",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "orbitas-doradas-03",
+      "nombre": "Órbitas doradas · 03",
+      "descripcion": "Girasoles y rosas rojas en envoltura negra y dorada.",
+      "precio": 159,
+      "categoria": "orbitas-doradas",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 20,
+      "imagen": "orbitas-doradas-03",
+      "consultar_precio": "NO",
+      "talla": "Grande",
+      "precio_tipo": "EJEMPLO"
+    },
+    {
+      "id": "orbitas-doradas-04",
+      "nombre": "Órbitas doradas · 04",
+      "descripcion": "Girasoles, rosas y flores variadas en envoltura rosada.",
+      "precio": 169,
+      "categoria": "orbitas-doradas",
+      "disponible": "PENDIENTE",
+      "visible": "SI",
+      "destacado": "NO",
+      "orden": 21,
+      "imagen": "orbitas-doradas-04",
+      "consultar_precio": "NO",
+      "talla": "Grande",
+      "precio_tipo": "EJEMPLO"
+    }
+  ],
+  "informacion": [
+    {
+      "clave": "horario",
+      "valor": "Horario pendiente de confirmación.",
+      "ayuda": "Pendiente de confirmación por el negocio."
+    },
+    {
+      "clave": "reparto",
+      "valor": "Coordina la fecha, el horario y la dirección de entrega. Consulta el costo de delivery para tu zona antes de confirmar.",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "anticipacion",
+      "valor": "La fecha y el horario solicitados deben ser confirmados por Anthalis.",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "personalizacion",
+      "valor": "El catálogo permite elegir colores sujetos a disponibilidad de temporada e incluir una dedicatoria.",
+      "ayuda": "Texto editable. Conservar la clave."
+    },
+    {
+      "clave": "pagos",
+      "valor": "El catálogo anuncia tarjetas, transferencias, Yape, Plin y efectivo. Confirma los medios vigentes al coordinar.",
+      "ayuda": "Texto editable. Conservar la clave."
+    }
+  ],
+  "preguntas": [
+    {
+      "id": "comprar",
+      "pregunta": "¿Cómo preparo mi pedido?",
+      "respuesta": "Elige tus arreglos, ajusta las cantidades y completa los detalles. Revisa tu mensaje y envíalo por WhatsApp para coordinar disponibilidad, pago y entrega con Anthalis.",
+      "visible": "SI",
+      "orden": 1
+    },
+    {
+      "id": "color",
+      "pregunta": "¿Puedo elegir otros colores?",
+      "respuesta": "El catálogo indica color personalizable, sujeto a disponibilidad de temporada. Escribe tus preferencias en las notas para que Anthalis las confirme.",
+      "visible": "SI",
+      "orden": 2
+    },
+    {
+      "id": "precio",
+      "pregunta": "¿Los precios son definitivos?",
+      "respuesta": "Los precios publicados corresponden a los arreglos indicados. Si un diseño aparece como «Por cotizar», consulta su importe por WhatsApp. El costo de entrega se coordina por separado.",
+      "visible": "SI",
+      "orden": 3
+    },
+    {
+      "id": "pagar",
+      "pregunta": "¿Cómo se realiza el pago?",
+      "respuesta": "El catálogo anuncia tarjetas, transferencias, Yape, Plin y efectivo. Consulta las condiciones actuales antes de pagar. Esta web no procesa pagos.",
+      "visible": "SI",
+      "orden": 4
+    },
+    {
+      "id": "tallas",
+      "pregunta": "¿Qué tamaños tienen los arreglos?",
+      "respuesta": "El catálogo muestra tallas pequeñas, medianas y grandes. La correspondencia exacta de los modelos Luna de rosa queda pendiente de confirmar.",
+      "visible": "SI",
+      "orden": 5
+    }
+  ]
+}
