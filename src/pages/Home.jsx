@@ -16,16 +16,30 @@ export default function Home({hero, info, questions, categories, products, order
 
   return <main id="contenido">
     <section className="portada" aria-labelledby="portada-title">
-      <div className="wrap portada-head">
-        <h1 id="portada-title"><span className="carve">{hero.titulo}</span> <span className="script">{hero.acento}</span></h1>
-        <p className="portada-lede">{hero.descripcion}</p>
+      <div className="wrap hero-grid">
+        <div className="hero-copy">
+          <p className="hero-tag"><span aria-hidden="true"/>{hero.etiqueta}</p>
+          <h1 id="portada-title">{hero.titulo}<br/><em>{hero.acento}</em></h1>
+          <p className="hero-description">{hero.descripcion}</p>
+          <a href="#coleccion" className="hero-button">{hero.boton}<Icon name="arrow" size={20}/></a>
+          <div className="hero-footnote">
+            <span>01 / {String(categories.length).padStart(2, '0')}</span>
+            <p>Pequeños gestos.<br/>Recuerdos que se quedan.</p>
+          </div>
+        </div>
+        <figure className="hero-photo">
+          <img src="/media/hero.webp" width="1254" height="1254" alt="Ramo Abrazos de flor: rosas rosadas y lirios blancos con envoltura rosada, del catálogo Anthalis" fetchPriority="high"/>
+          <figcaption>
+            <span>La colección</span>
+            <p>{hero.nota}</p>
+            <a href="#coleccion" aria-label="Explorar colecciones"><Icon name="arrow" size={20}/></a>
+          </figcaption>
+        </figure>
       </div>
-      <Facade categories={categories} products={products} order={order} onOpen={openCollection}/>
-      <div className="wrap portada-foot">
-        <p className="portada-lede-mobile">{hero.descripcion}</p>
-        <a href="#coleccion" className="text-link">{hero.boton}<Icon name="arrow" size={18}/></a>
-      </div>
+      <span className="hero-watermark" aria-hidden="true">ANTHALIS</span>
     </section>
+
+    <Facade categories={categories} products={products} order={order} onOpen={openCollection}/>
 
     {stale && <p className="wrap notice" role="status">Mostramos contenido guardado. Confirma precios y disponibilidad al coordinar.</p>}
 
