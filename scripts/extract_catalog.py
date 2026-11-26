@@ -2,7 +2,7 @@ from PIL import Image
 from pathlib import Path
 base=Path(__file__).resolve().parents[1]
 out=base/'public/media'
-src=base/'docs/catalogo'
+src=base.parent/'anthalis-recursos'/'catalogo'
 # Extracts supplied catalog regions. No AI generation or replacement of products.
 def crop(page,box,name):
  im=Image.open(src/f'pagina-{page}.png').convert('RGB').crop(box)

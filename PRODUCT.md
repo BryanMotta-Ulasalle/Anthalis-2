@@ -113,7 +113,7 @@ Decisiones del usuario, vinculantes:
   presentes. Hay libertad para explorar colores complementarios, tipografías,
   recursos gráficos y composiciones.
 - **El catálogo original es fuente de inspiración**, y **cada colección tiene su
-  propia ambientación visual** en él (`docs/catalogo/pagina-0.png` a
+  propia ambientación visual** en él (`../anthalis-recursos/catalogo/pagina-0.png` a
   `pagina-4.png`).
 - No hay obligación de conservar ninguna composición del diseño web actual.
 - La dirección buscada: memorable, personalizada, de nivel estudio profesional, y
@@ -126,11 +126,11 @@ ortografía («Todo de mí», «Órbitas doradas»), «Face to face» en inglés
 ## Evidence on Hand
 
 - **Catálogo original** (capturas del flip-book, 21/11/2026):
-  `docs/catalogo/pagina-0.png` a `pagina-4.png`. Origen:
+  `../anthalis-recursos/catalogo/pagina-0.png` a `pagina-4.png`. Origen:
   https://heyzine.com/flip-book/5e8c868b39.html
 - **Logo:** `public/media/logo.webp`.
 - **Fotos de producto:** 21 imágenes WebP 1254 × 1254 en `public/media/`
-  (originales PNG en `docs/imagenes-ia/individuales/`). **No alterar** su apariencia,
+  (originales PNG en `../anthalis-recursos/imagenes-ia/individuales/`). **No alterar** su apariencia,
   cantidad de flores ni características comerciales. Son recreaciones con IA,
   no fotografías del local.
 - **Contacto y dirección confirmados en el catálogo:** WhatsApp 984 997 937;

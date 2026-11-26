@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-22T06:43:46.223Z",
+  "generatedAt": "2026-11-26T02:50:55.814698Z",
   "title": "Design System: Anthalis",
   "extensions": {
     "colorMeta": {
@@ -418,7 +418,11 @@
     "typographyMeta": {
       "display": {
         "displayName": "Caligrafía",
-        "purpose": "Palabra de acento de la portada y nombres de colección."
+        "purpose": "Nombres de colección en bandas y hornacinas, y una palabra de acento por titular de sección."
+      },
+      "hero-display": {
+        "displayName": "Serif de portada",
+        "purpose": "Solo portada, por petición de la usuaria: titular Georgia con acento en cursiva dorada; la misma voz lleva nota de foto, nota al pie y marca de agua."
       },
       "headline": {
         "displayName": "Inscripción",
@@ -553,10 +557,24 @@
         "value": "760px"
       },
       {
+        "name": "hero",
+        "value": "900px"
+      },
+      {
         "name": "lg",
         "value": "1100px"
       }
-    ]
+    ],
+    "portada": {
+      "scope": "Solo la sección .portada; excepciones sancionadas por la usuaria, no heredables.",
+      "exceptions": [
+        "Georgia como voz serif de la portada (titular, nota de foto, nota al pie, marca de agua).",
+        "Relleno dorado plano en el botón de la portada, excepción a The One Light Rule.",
+        "Línea de etiqueta dorada sobre el titular."
+      ],
+      "photoMat": "#f6ede4",
+      "watermark": "rgb(255 255 255 / .035)"
+    }
   },
   "components": [
     {
@@ -582,6 +600,14 @@
       "description": "Enlace de acción secundaria sobre noche, con flecha.",
       "html": "<a href=\"#\" class=\"ds-text-link\">Ver todas las colecciones <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></a>",
       "css": ".ds-text-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;color:var(--gold, #c8a45c);font-family:'Hanken Grotesk Variable',system-ui,sans-serif;font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px;} .ds-text-link:hover{color:var(--gold-hi, #e2c585);} .ds-text-link:focus-visible{outline:2px solid var(--gold, #c8a45c);outline-offset:3px;}"
+    },
+    {
+      "name": "Botón de la portada",
+      "kind": "button",
+      "refersTo": "hero-button",
+      "description": "Excepción solo de portada, pedida por la usuaria: relleno dorado plano con texto oscuro. No usar en otros lugares.",
+      "html": "<a href=\"#\" class=\"ds-hero-btn\">Elige tu detalle <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-hero-btn{display:inline-flex;align-items:center;gap:28px;min-height:54px;padding:0 26px;background:var(--gold, #c8a45c);color:#17120a;font-family:'Hanken Grotesk Variable',system-ui,sans-serif;font-size:15px;font-weight:600;text-decoration:none;transition:background-color .25s cubic-bezier(.16, 1, .3, 1);} .ds-hero-btn:hover{background:var(--gold-hi, #e2c585);} .ds-hero-btn:focus-visible{outline:2px solid var(--gold-hi, #e2c585);outline-offset:3px;}"
     },
     {
       "name": "Pestañas de colección",
@@ -634,7 +660,7 @@
   ],
   "narrative": {
     "northStar": "Sillar de noche",
-    "overview": "Anthalis se presenta como una portada de sillar arequipeño vista de noche: el negro nocturno domina, la piedra tallada aparece en marcos, arcos, frisos y orlas, y el oro del logo se comporta como luz, no como pintura. Cada colección vive en su propia hornacina, con el fondo de color que traía su página en el catálogo original; la hornacina es a la vez la unidad visual y la unidad de navegación, y la banda de colección repite el mismo arco a escala de muro.\n\nEl sistema alterna dos materiales con dos tintas: noche (texto claro `on-night`) y piedra (texto oscuro `on-stone`). La piedra de los muros grandes (fachada y bandas) está iluminada desde el suelo y se apaga hacia la cornisa, como un muro bañado por reflectores. Las regiones de colección añaden un tercer registro, local y acotado: su fondo y su par de tintas solo existen dentro de su hornacina o su campo de banda. Las fotos de producto se muestran tal cual, sin filtros ni tintes.\n\nLa densidad es de escaparate móvil: hileras deslizables con la siguiente pieza asomando, bloques de piedra completos y aire generoso entre secciones (72 a 96px). El movimiento es luz que sube y baja con una sola curva, sin rebotes.",
+    "overview": "Anthalis se presenta como una portada de sillar arequipeño vista de noche: el negro nocturno domina, la piedra tallada aparece en marcos, arcos, frisos y orlas, y el oro del logo se comporta como luz, no como pintura. Cada colección vive en su propia hornacina, con el fondo de color que traía su página en el catálogo original; la hornacina es a la vez la unidad visual y la unidad de navegación, y la banda de colección repite el mismo arco a escala de muro.\n\nEl sistema alterna dos materiales con dos tintas: noche (texto claro `on-night`) y piedra (texto oscuro `on-stone`). La piedra de los muros grandes (fachada y bandas) está iluminada desde el suelo y se apaga hacia la cornisa, como un muro bañado por reflectores. Las regiones de colección añaden un tercer registro, local y acotado: su fondo y su par de tintas solo existen dentro de su hornacina o su campo de banda. Las fotos de producto se muestran tal cual, sin filtros ni tintes.\n\nLa portada (hero) es la única excepción acotada a esa gramática, pedida expresamente por la usuaria: una composición editorial sobre noche, con línea de etiqueta dorada, titular en serif Georgia con una palabra en cursiva dorada, botón de relleno dorado plano y una foto destacada en arco sobre paspartú claro. Sus excepciones viven solo en la portada; la fachada de seis hornacinas va justo debajo, como primera sección de piedra.\n\nLa densidad es de escaparate móvil: hileras deslizables con la siguiente pieza asomando, bloques de piedra completos y aire generoso entre secciones (72 a 96px). El movimiento es luz que sube y baja con una sola curva, sin rebotes.",
     "keyCharacteristics": [
       "Negro nocturno dominante; la piedra aparece como bloque entero con grano, nunca como tinte suave.",
       "Oro como luz y filo: contornos internos, halos cálidos, cifras de estado y texto de acción; los controles son caras de noche con canto dorado.",
@@ -645,7 +671,7 @@
     "rules": [
       {
         "name": "The One Light Rule",
-        "body": "El oro es la única luz de todo lo que no es producto. En los controles es canto más luz: cara `night`, contorno interno dorado y un halo cálido que cae bajo el control; nunca un relleno dorado plano. Sobre la piedra aparece como luz que sube (el degradado del arco encendido), no como pintura. Solo las insignias de cantidad (22 a 26px) y la selección de texto llevan oro plano, porque son puntos de luz, no superficies.",
+        "body": "El oro es la única luz de todo lo que no es producto. En los controles es canto más luz: cara `night`, contorno interno dorado y un halo cálido que cae bajo el control; nunca un relleno dorado plano. Sobre la piedra aparece como luz que sube (el degradado del arco encendido), no como pintura. Solo las insignias de cantidad (22 a 26px) y la selección de texto llevan oro plano, porque son puntos de luz, no superficies. Única excepción sancionada, pedida por la usuaria: el botón de la portada (relleno `gold` plano, texto #17120a, `gold-hi` en hover). No se extiende a ningún otro control.",
         "section": "colors"
       },
       {
@@ -660,7 +686,7 @@
       },
       {
         "name": "The Three Voices Rule",
-        "body": "Marcellus graba, Pinyon nombra, Hanken informa. La caligrafía solo nombra colecciones o pone una palabra de acento por titular; nunca va en botones, precios, cuerpo ni etiquetas.",
+        "body": "Marcellus graba, Pinyon nombra, Hanken informa. La caligrafía solo nombra colecciones o pone una palabra de acento por titular de sección; nunca va en botones, precios, cuerpo ni etiquetas. Georgia es la excepción de la portada y no sale de ella.",
         "section": "typography"
       },
       {
@@ -696,13 +722,14 @@
       "**Do** mantener objetivos táctiles de 44px como mínimo (48px en controles primarios)."
     ],
     "donts": [
-      "**Don't** usar el oro como superficie plana de botón, banda o sección; solo los discos de cantidad lo llevan plano.",
+      "**Don't** usar el oro como superficie plana de botón, banda o sección; solo los discos de cantidad (y, por excepción pedida, el botón de la portada) lo llevan plano.",
+      "**Don't** llevar Georgia, el botón dorado plano ni la línea de etiqueta sobre titulares fuera de la portada.",
       "**Don't** usar Pinyon Script fuera de nombres de colección y de una palabra de acento por titular.",
       "**Don't** teñir, filtrar ni enmascarar las fotos de producto.",
       "**Don't** usar un color de colección como acento suelto fuera de su región.",
       "**Don't** iluminar desde arriba ni dejar la cornisa más clara que la base.",
       "**Don't** añadir rebotes ni movimientos que no sean luz que sube o baja; con `prefers-reduced-motion` todo queda estático.",
-      "**Don't** convertir la página en la florería por defecto (foto grande, titular, botón y cuadrícula de tarjetas iguales) ni en un negro y oro de lujo genérico."
+      "**Don't** convertir el catálogo en la florería por defecto (cuadrícula de tarjetas iguales) ni en un negro y oro de lujo genérico; las colecciones viven en hornacinas y bandas."
     ]
   }
 }

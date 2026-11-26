@@ -12,5 +12,5 @@ No se completó inspección visual en navegador: el control de Chrome se detuvo
 porque no pudo identificar con seguridad la URL activa.
 
 Los originales PNG de los 21 arreglos se conservan en la carpeta local
-docs/imagenes-ia/individuales, fuera del paquete web. El ZIP contiene los recursos
+../anthalis-recursos/imagenes-ia/individuales, fuera del repositorio. El ZIP contiene los recursos
 WebP y el código actualizado, además de dist listo para alojamiento estático.

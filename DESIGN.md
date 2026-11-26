@@ -26,10 +26,16 @@ colors:
 typography:
   display:
     fontFamily: "Pinyon Script, cursive"
-    fontSize: "clamp(56px, 16vw, 128px)"
+    fontSize: "clamp(54px, 14vw, 96px)"
     fontWeight: 400
-    lineHeight: 0.9
+    lineHeight: 1.05
     letterSpacing: "0em"
+  hero-display:
+    fontFamily: "Georgia, Times New Roman, serif"
+    fontSize: "clamp(46px, 12.5vw, 80px)"
+    fontWeight: 400
+    lineHeight: 1.04
+    letterSpacing: "-0.03em"
   headline:
     fontFamily: "Marcellus, Times New Roman, serif"
     fontSize: "clamp(26px, 6.4vw, 46px)"
@@ -71,6 +77,8 @@ rounded:
   sheet: "14px"
   pill: "12px"
   arch: "999px 999px 0 0"
+  hero-arch: "140px 140px 0 0"
+  hero-arch-wide: "200px 200px 0 0"
   band-arch: "50% 50% 0 0 / 84px 84px 0 0"
   band-arch-wide: "50% 50% 0 0 / 150px 150px 0 0"
   round: "50%"
@@ -91,6 +99,14 @@ components:
   button-gold-hover:
     backgroundColor: "#1d1810"
     textColor: "#f1d9a2"
+  hero-button:
+    backgroundColor: "{colors.gold}"
+    textColor: "#17120a"
+    padding: "0 26px"
+    height: "54px"
+  hero-button-hover:
+    backgroundColor: "{colors.gold-hi}"
+    textColor: "#17120a"
   button-night:
     backgroundColor: "{colors.night}"
     textColor: "{colors.on-night}"
@@ -167,6 +183,8 @@ Anthalis se presenta como una portada de sillar arequipeño vista de noche: el n
 
 El sistema alterna dos materiales con dos tintas: noche (texto claro `on-night`) y piedra (texto oscuro `on-stone`). La piedra de los muros grandes (fachada y bandas) está iluminada desde el suelo y se apaga hacia la cornisa, como un muro bañado por reflectores. Las regiones de colección añaden un tercer registro, local y acotado: su fondo y su par de tintas solo existen dentro de su hornacina o su campo de banda. Las fotos de producto se muestran tal cual, sin filtros ni tintes.
 
+La portada (hero) es la única excepción acotada a esa gramática, pedida expresamente por la usuaria: una composición editorial sobre noche, con línea de etiqueta dorada, titular en serif Georgia con una palabra en cursiva dorada, botón de relleno dorado plano y una foto destacada en arco sobre paspartú claro. Sus excepciones viven solo en la portada; la fachada de seis hornacinas va justo debajo, como primera sección de piedra.
+
 La densidad es de escaparate móvil: hileras deslizables con la siguiente pieza asomando, bloques de piedra completos y aire generoso entre secciones (72 a 96px). El movimiento es luz que sube y baja con una sola curva, sin rebotes.
 
 **Key Characteristics:**
@@ -214,7 +232,7 @@ Una colección nueva recibe por turno uno de tres ambientes de reserva (café #3
 - **Papel de campo** (`field-paper`) y **regla de campo** (`field-rule`): fondo y borde de los campos del formulario de pedido, dentro de la tablilla de piedra.
 
 ### Named Rules
-**The One Light Rule.** El oro es la única luz de todo lo que no es producto. En los controles es canto más luz: cara `night`, contorno interno dorado y un halo cálido que cae bajo el control; nunca un relleno dorado plano. Sobre la piedra aparece como luz que sube (el degradado del arco encendido), no como pintura. Solo las insignias de cantidad (22 a 26px) y la selección de texto llevan oro plano, porque son puntos de luz, no superficies.
+**The One Light Rule.** El oro es la única luz de todo lo que no es producto. En los controles es canto más luz: cara `night`, contorno interno dorado y un halo cálido que cae bajo el control; nunca un relleno dorado plano. Sobre la piedra aparece como luz que sube (el degradado del arco encendido), no como pintura. Solo las insignias de cantidad (22 a 26px) y la selección de texto llevan oro plano, porque son puntos de luz, no superficies. Única excepción sancionada, pedida por la usuaria: el botón de la portada (relleno `gold` plano, texto #17120a, `gold-hi` en hover). No se extiende a ningún otro control.
 
 **The Region Rule.** Un color de colección solo pinta una región completa de su colección (hueco de nicho, campo de banda, pieza teñida). Nunca se usa como acento suelto fuera de ella, y su texto usa siempre su propio par `--c-ink` / `--c-soft`.
 
@@ -225,20 +243,23 @@ Una colección nueva recibe por turno uno de tres ambientes de reserva (café #3
 **Display Font:** Pinyon Script (con cursive)
 **Inscription Font:** Marcellus (con Times New Roman, serif)
 **Body Font:** Hanken Grotesk Variable (con system-ui, sans-serif)
+**Hero Serif (solo portada):** Georgia (con Times New Roman, serif)
 
-**Character:** Marcellus actúa como inscripción grabada en mayúsculas romanas; Pinyon Script es la caligrafía del catálogo impreso, reservada a nombres y a una palabra de acento; Hanken Grotesk lleva toda la interfaz y las cifras, siempre tabulares.
+**Character:** Marcellus actúa como inscripción grabada en mayúsculas romanas; Pinyon Script es la caligrafía del catálogo impreso, reservada a nombres y a una palabra de acento; Hanken Grotesk lleva toda la interfaz y las cifras, siempre tabulares. Georgia es una cuarta voz confinada a la portada, por petición expresa de la usuaria.
 
 ### Hierarchy
-- **Display** (Pinyon Script 400, clamp(56px, 16vw, 128px), 0.9): la palabra caligráfica de la portada, en oro. Los nombres de colección en las bandas usan la misma voz a clamp(54px, 14vw, 96px), 1.05; en las hornacinas, clamp(22px, 13cqi, 38px) según el ancho del nicho.
-- **Headline** (Marcellus 400, mayúsculas, clamp(26px, 6.4vw, 46px), 1.12, 0.05em): títulos de sección. Pueden cerrar con una palabra en caligrafía dorada a 1.75em en línea propia. La línea grabada de la portada usa clamp(22px, 6.2vw, 56px), máximo 19ch.
+- **Display** (Pinyon Script 400, clamp(54px, 14vw, 96px), 1.05): nombres de colección en las bandas; en las hornacinas, clamp(22px, 13cqi, 38px) según el ancho del nicho.
+- **Hero Display** (Georgia 400, clamp(46px, 12.5vw, 80px), 1.04, -0.03em): titular de la portada en `on-night`, con la palabra de acento en cursiva `gold` en línea propia. La misma Georgia lleva la nota de la foto (17px), la nota al pie de escritorio (15px, `on-night-soft`) y la marca de agua. Solo portada.
+- **Headline** (Marcellus 400, mayúsculas, clamp(26px, 6.4vw, 46px), 1.12, 0.05em): títulos de sección. Pueden cerrar con una palabra en caligrafía dorada a 1.75em en línea propia.
 - **Title** (Marcellus 400, 17px, 1.25, 0.02em): nombre de cada arreglo y de cada artículo del pedido; 21px en los peldaños; 24px en la pieza principal de escritorio cuando ocupa 2×2.
 - **Body** (Hanken Grotesk 400, 16px, 1.6): texto corrido; entradillas a 40-56ch, respuestas a 62ch.
 - **Label** (Marcellus 400, mayúsculas, 14px, 0.1em): navegación, pestañas de colección (0.06em), términos de la lista de datos y títulos de la orla (0.12em).
+- **Línea de etiqueta de la portada** (Hanken Grotesk 600, mayúsculas, 11px, 0.22em, `gold`, con un filete dorado de 28 × 1px delante): va sobre el titular de la portada y en ningún otro lugar. El rótulo «La colección» de la nota de la foto usa la misma voz en `on-night-soft` (0.2em).
 - **Data** (Hanken Grotesk 600, mayúsculas, 12-13px, 0.05-0.1em): talla en el plinto y línea de datos bajo el nombre de cada banda (13px, 0.1em, `--c-soft`, hasta 60ch). Va después del nombre al que acompaña, nunca encima de un título.
 - **Price** (Hanken Grotesk 650, 18-20px, cifras tabulares y de caja alta): precios y subtotal (22px); 16.5px en el plinto de la hornacina desde 1100px.
 
 ### Named Rules
-**The Three Voices Rule.** Marcellus graba, Pinyon nombra, Hanken informa. La caligrafía solo nombra colecciones o pone una palabra de acento por titular; nunca va en botones, precios, cuerpo ni etiquetas.
+**The Three Voices Rule.** Marcellus graba, Pinyon nombra, Hanken informa. La caligrafía solo nombra colecciones o pone una palabra de acento por titular de sección; nunca va en botones, precios, cuerpo ni etiquetas. Georgia es la excepción de la portada y no sale de ella.
 
 **The Tabular Price Rule.** Toda cifra de precio, cantidad o contador lleva `font-variant-numeric: tabular-nums` (y `lining-nums` en precios).
 
@@ -248,7 +269,8 @@ Una colección nueva recibe por turno uno de tres ambientes de reserva (café #3
 
 Contenedor `min(1240px, 100% - 2 × gutter)`, con gutter de 16px en móvil, 14px por debajo de 360px y 32px desde 760px. El campo de cada banda se ensancha a `min(1300px, 100% - 24px)` (56px desde 760px). Ritmo vertical entre secciones de 72 a 96px; objetivos táctiles de 44px como mínimo y 48px en controles primarios.
 
-- **Fachada:** en móvil, hilera horizontal con `scroll-snap` centrado; cada nicho mide `min(74%, 300px)` para que asome el siguiente. Desde 1100px, rejilla de seis columnas con `subgrid` para alinear huecos y plintos.
+- **Portada:** sobre noche, una columna en móvil (texto y luego foto, máx. 520px; relleno 36/48px); desde 900px, dos columnas iguales con 64px de separación y relleno 56/72px. La nota al pie «01 / 06» y la marca de agua «ANTHALIS» solo aparecen desde 900px.
+- **Fachada:** sección propia justo debajo de la portada; en móvil, hilera horizontal con `scroll-snap` centrado; cada nicho mide `min(74%, 300px)` para que asome el siguiente. Desde 1100px, rejilla de seis columnas con `subgrid` para alinear huecos y plintos.
 - **Banda de colección:** muro de sillar con una hilada de friso de 30px arriba, el campo en arco 22px por debajo (relleno 72/16/48px en móvil, 96/36/64px desde 760px) y un zócalo de 12px al cierre.
 - **Piezas de banda:** 2 columnas en móvil con la pieza principal a fila completa; 3 columnas desde 760px con la principal en una celda; 4 columnas desde 1100px con la principal en 2×2. Una banda de exactamente cuatro piezas usa en escritorio `2fr` para la principal y tres columnas iguales, todas alineadas arriba, con la descripción de las secundarias reservando 4.5em para que precios y botones caigan a la misma altura. Una colección de un solo arreglo se centra en una columna de 460px.
 - **Escalinata:** peldaños desplazados `--step × 14px` (6% desde 560px); desde 1100px, cuatro columnas que suben `200px + step × 36px`.
@@ -281,7 +303,7 @@ Fachada y bandas comparten un degradado de muro iluminado por reflectores: arena
 
 ## Shapes
 
-La forma firma es el arco. Las hornacinas son de medio punto (`999px 999px 0 0`) con 7px de marco biselado; el campo de cada banda es un arco elíptico (`50% 50% 0 0 / 84px`, 150px desde 760px) rodeado por un borde de piedra de 6px (#ddd3c2). Ambos quedan bajo una hilada de friso de tulipanes en bajorrelieve (`--frieze`, 48 × 33px en repetición horizontal sobre 30px de alto) y se cierran con un zócalo de `sillar-lo` de 10-12px. Todo lo demás es casi recto: controles con esquina de 3px, tablilla de 4px (14px arriba como hoja móvil), insignias en píldora y el «+» de hornacina en círculo. Las fotos son cuadradas (`aspect-ratio: 1`) y llevan un filete de 1px (oro al 75% en nichos, tinta de colección al 22% en piezas).
+La forma firma es el arco. Las hornacinas son de medio punto (`999px 999px 0 0`) con 7px de marco biselado; el campo de cada banda es un arco elíptico (`50% 50% 0 0 / 84px`, 150px desde 760px) rodeado por un borde de piedra de 6px (#ddd3c2). Ambos quedan bajo una hilada de friso de tulipanes en bajorrelieve (`--frieze`, 48 × 33px en repetición horizontal sobre 30px de alto) y se cierran con un zócalo de `sillar-lo` de 10-12px. La foto de la portada repite el arco a su manera: cabeza redondeada de 140px (200px desde 900px) sobre un paspartú claro (#f6ede4) con la foto contenida, sin recorte. Todo lo demás es casi recto: controles con esquina de 3px, tablilla de 4px (14px arriba como hoja móvil), insignias en píldora y el «+» de hornacina en círculo. Las fotos son cuadradas (`aspect-ratio: 1`) y llevan un filete de 1px (oro al 75% en nichos, tinta de colección al 22% en piezas).
 
 ## Components
 
@@ -292,6 +314,8 @@ Caras de noche con canto y luz dorados; tactilidad sobria.
 - **Hover / Focus:** cara #1d1810, texto #f1d9a2, contorno `gold-hi` y halo más abierto; transición de 250ms con `--ease-light`. Foco global: contorno de 2px en `gold` a 3px (en `gold-deep` sobre piedra).
 - **Noche y Piedra:** variantes llanas para fondos opuestos (noche sobre la tablilla, piedra sobre la noche); la de piedra pasa a `sillar-hi` en hover.
 - **Enlace de texto:** oro, subrayado de 1px desplazado 6px, con icono; `gold-hi` en hover.
+
+- **Botón de la portada (excepción):** relleno `gold` plano, texto #17120a, 54px de alto, 26px de relleno lateral, esquina recta, Hanken 600 a 15px con flecha; pasa a `gold-hi` en 250ms. Pedido por la usuaria; solo existe en la portada.
 
 ### Chips (pestañas de colección)
 - **Style:** Marcellus 14px en mayúsculas, `on-night-soft`, 44px de alto, en fila deslizable sin barra.
@@ -312,6 +336,9 @@ Caras de noche con canto y luz dorados; tactilidad sobria.
 - **Style:** cabecera de noche pegajosa con el logo original (`mix-blend-mode: lighten`) y el contador del pedido. Enlaces en Marcellus mayúsculas a 0.1em; `on-night-soft` en escritorio, `gold-hi` en hover.
 - **Mobile:** menú desplegado como panel `night-2` bajo la cabecera, enlaces de 48px separados por filetes `night-line`.
 - **Contador:** disco de 24px en oro con cifra tabular; vacío, se vuelve contorno `night-line` con cifra apagada.
+
+### Portada
+Composición editorial sobre noche: línea de etiqueta dorada, titular Georgia con acento en cursiva dorada, descripción `on-night-soft` a 40ch, botón dorado plano y, desde 900px, una nota al pie con el contador «01 / 06» en oro tabular y dos líneas en Georgia. Al lado, la foto destacada en arco sobre paspartú #f6ede4 y, debajo, una nota con rótulo «La colección», texto Georgia de 17px, filete inferior `night-line` y un enlace circular de 44px con flecha `gold` y canto interno de 1px en `gold-deep` (`gold-hi` y canto `gold` en hover). Una marca de agua «ANTHALIS» en Georgia, blanco al 3.5%, asoma en la esquina inferior izquierda desde 900px. Sus tres excepciones (Georgia, relleno dorado plano, línea de etiqueta) no se heredan.
 
 ### Hornacina (componente firma)
 Arco de piedra con 7px de marco biselado, hueco con el fondo de la colección, nombre caligráfico en su tinta, foto cuadrada con filete dorado y, debajo, un plinto con filete de 3px en `sillar-lo`: talla en voz de dato, precio tabular, contador y un «+» circular de 48px (44px desde 1100px; cara `night`, icono `gold`, sombra oscura corta). Todo el nicho es pulsable mediante el botón del nombre, cuyo foco se dibuja alrededor del nicho entero. Encendida, sigue la regla del nicho encendido.
@@ -339,10 +366,11 @@ Barra fija de 52px (máx. 420px, a la derecha desde 1100px), cara `night`, texto
 - **Do** mantener objetivos táctiles de 44px como mínimo (48px en controles primarios).
 
 ### Don't:
-- **Don't** usar el oro como superficie plana de botón, banda o sección; solo los discos de cantidad lo llevan plano.
+- **Don't** usar el oro como superficie plana de botón, banda o sección; solo los discos de cantidad (y, por excepción pedida, el botón de la portada) lo llevan plano.
+- **Don't** llevar Georgia, el botón dorado plano ni la línea de etiqueta sobre titulares fuera de la portada.
 - **Don't** usar Pinyon Script fuera de nombres de colección y de una palabra de acento por titular.
 - **Don't** teñir, filtrar ni enmascarar las fotos de producto.
 - **Don't** usar un color de colección como acento suelto fuera de su región.
 - **Don't** iluminar desde arriba ni dejar la cornisa más clara que la base.
 - **Don't** añadir rebotes ni movimientos que no sean luz que sube o baja; con `prefers-reduced-motion` todo queda estático.
-- **Don't** convertir la página en la florería por defecto (foto grande, titular, botón y cuadrícula de tarjetas iguales) ni en un negro y oro de lujo genérico.
+- **Don't** convertir el catálogo en la florería por defecto (cuadrícula de tarjetas iguales) ni en un negro y oro de lujo genérico; las colecciones viven en hornacinas y bandas.
